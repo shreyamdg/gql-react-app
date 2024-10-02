@@ -1,0 +1,9 @@
+{
+  "name": "gql-react-app",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/client",
+    "packages/server"
+  ]
+}

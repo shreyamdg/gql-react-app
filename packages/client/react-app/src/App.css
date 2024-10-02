@@ -1,0 +1,77 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #f4f4f9;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.dropdown-container {
+  margin-bottom: 20px;
+}
+
+.dropdown-container label {
+  margin-right: 10px;
+  font-size: 1.2rem;
+  color: #2980b9;
+}
+
+.dropdown-container select {
+  padding: 10px;
+  font-size: 1.1rem;
+}
+
+.nav-links {
+  margin-bottom: 20px;
+}
+
+.nav-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #3498db;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #2980b9;
+}
+
+.user-basic-details,
+.user-detailed-info {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  margin-bottom: 20px;
+}
+
+.post {
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.comments {
+  margin-top: 10px;
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+}
+
+.comment {
+  margin-top: 10px;
+}
+
+.comment p {
+  margin: 5px 0;
+}
